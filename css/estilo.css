@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 body{
     background: rgb(0, 110, 255);
     font: normal 15pt arial;
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-align: center;
 }
@@ -27,4 +30,20 @@ footer{
     color: white;
     font-style: italic;
 
+}
+
+#button{
+    background: #006EFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+}
+
+#button:hover{
+    background: rgba(67, 134, 235, 0.808);
+    color: white;
 }
